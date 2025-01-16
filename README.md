@@ -1,15 +1,15 @@
 # SHA256 Hash Cracker
 
-## Description
+## 📜Description
 A Python script to crack SHA256 hashes using a password list.  
 This tool is built for educational and ethical purposes only.  
 
-## Features
+## 🔑Features
 - Uses the `rockyou.txt` password file (or any custom password file) to brute-force SHA256 hashes.  
 - Displays a progress log with each attempt.  
 - Exits gracefully if the hash is not found.  
 
-## Step-by-Step Guide in Linux Terminal !
+## 🚀Step-by-Step Guide in Linux Terminal !
 
 Step 1: Update & upgrade your system  
 >sudo apt update  
@@ -29,7 +29,7 @@ Step 4: extract the rockyou file using unrar
 Step 5: After Completing the process now u can run script  
 >python3 Script.py  
 
-## Troubleshooting
+## ⚙️Troubleshooting
 1) `Missing :` 'rockyou.txt' file: If the script doesn't find the rockyou.txt file, make sure it is in the same
 directory or specify the full path in the script.
 
@@ -37,14 +37,14 @@ directory or specify the full path in the script.
 
 3) `Pwn Module Error :` If the pwn module is not installed, install it ( see requirements.txt for commands )
 
-## Follow the Prompts !
+## 🤝Follow the Prompts !
 - You’ll see a banner with the script's details.  
 - Enter a valid SHA256 hash when prompted (64-character hexadecimal string).  
 - The script will start attempting to crack the hash using the rockyou.txt file.  
 - If the password is found, it will be displayed along with the number of attempts.  
 - If not found, the script will notify you after exhausting the password list.  
 
-## MODIFICATION ( use own wordlist )
+## 🛠️MODIFICATION ( use own wordlist )
 
 if u want to use ur own wordlist instead of rockyou.txt , u can modify in the script ,  
 
@@ -75,6 +75,6 @@ example : password_file = "mylist.txt"
 
 Step 6: Save the script and run !
 
-# Disclaimer !
+# ⚠️Disclaimer !
 This tool is intended for ethical and educational use only.  
 Do not use it for illegal activities. The author is not responsible for any misuse.  
