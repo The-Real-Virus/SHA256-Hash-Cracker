@@ -1,4 +1,4 @@
-# SHA256 Hash Cracker
+# 💀SHA256 Hash Cracker💀
 
 ## 📜Description
 A Python script to crack SHA256 hashes using a password list.  
